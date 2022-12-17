@@ -35,7 +35,7 @@ void DotOfCross(double k1, double b1, double k2, double b2)
         Console.WriteLine("Прямые совпадают");
     }
     
-    if(k1 != k2 && b1 != b2)
+    if(k1 != k2)
     {
         double x = (b1 - b2) / (k2 - k1);
         double y = (k1 * (b1 -b2) / (k2 - k1)) + b1;
